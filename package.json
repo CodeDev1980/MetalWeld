@@ -1,0 +1,26 @@
+{
+  "name": "rhino-construction",
+  "version": "1.0.0",
+  "description": "\"Rhino Construction Company for your Metal Fabrication needs\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDev1980/Rhino-Contstruciton.git"
+  },
+  "keywords": [
+    "\"Metal",
+    "Fabrication\"",
+    "\"Construciton\"",
+    "\"Metal",
+    "Work\""
+  ],
+  "author": "\"Stephen Brooks\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeDev1980/Rhino-Contstruciton/issues"
+  },
+  "homepage": "https://github.com/CodeDev1980/Rhino-Contstruciton#readme"
+}
