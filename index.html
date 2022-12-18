@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="/css/mdb.min.css" />
+  <link rel="stylesheet" href="/css/home.css">
 </head>
 
 <body>
@@ -53,9 +54,6 @@
                   <li class="nav-item">
                     <a class="nav-link" href="projects.html" aria-controls="#picker-editor">Projects</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" download="#" href="#" aria-controls="#picker-editor">Brochure</a>
-                  </li>
                 </ul>
                 <!-- Left links -->
               </div>
@@ -90,6 +88,11 @@
                   <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-lg-10">
                       <div class="text-white pb-5" itemid="company slogan">
+                        <div class="container-fluid mb-4 text-center">
+                          <p class="gold-text">
+                            Over 45 years of unsurpassed <br id="break"> quality & service
+                          </p>
+                        </div>
                           <h1 class="my-md-3 mb-2 px-4 display-3 fw-bold ls-tight">
                             <span>
                               Welcome to Metal-Weld
@@ -100,8 +103,9 @@
                             </span>
                           </h1>
                         <h2 class="my-md-4 mb-2 px-4 fw-bold ls-tight">Crafting Metal Projects & Structural Sound Buildings</h2>
-                          <a class="btn btn-outline-light btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 me-md-2" href="contact.html" role="button" aria-controls="#picker-editor">Contact Us</a>
-                          <a class="btn btn-link btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 text-white" style="background-color: transparent" href="about.html" role="button" aria-controls="#picker-editor">About Us</a>
+
+                        <a class="btn btn-outline-light btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 me-md-2" href="contact.html" role="button" aria-controls="#picker-editor">Contact Us</a>
+                        <a class="btn btn-link btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 text-white" style="background-color: transparent" href="about.html" role="button" aria-controls="#picker-editor">About Us</a>
                       </div>
                     </div>
                   </div>
@@ -115,6 +119,7 @@
           </section>
         </section><!---->
       </div>
+
       <div data-draggable="true" style="position: relative;">
         <!----><!---->
         <section draggable="false" class="container pt-5" data-v-271253ee="" itemprop="previous work">
@@ -175,13 +180,20 @@
                 </div>
               </div>
             </div>
-            <div id="brochure" class="text-center mt-4">
-              <h4 class="fw-bold">Want to read our brochure? Download it here.</h4>
-              <a href="#" download="#" class="btn btn-outline-warning">PDF Brochure</a>
-              <a href="#" download="#" class="btn btn-outline-info">DOCX Brochure</a>
-            </div>
           </section>
         </section><!---->
+      </div>
+      <div class="container">
+        <div id="brochure" class="text-center card p-3 mb-5">
+          <div class="card-body">
+            <h2 class="h1 h1-responsive fw-bold">Download Our Brochure Here.</h2>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus deleniti doloremque doloribus eaque enim eveniet facere harum hic, id impedit iusto minus molestias, nobis odit possimus reiciendis reprehenderit velit voluptatum.
+            </p>
+            <a href="/assets/brochure.pdf" download="brochure.pdf" class="btn btn-outline-danger">PDF Brochure</a>
+            <a href="/assets/brochure.docx" download="brochure.docx" class="btn btn-outline-info">DOCX Brochure</a>
+          </div>
+        </div>
       </div>
       <div data-draggable="true" style="position: relative;"><!----><!---->
         <section draggable="false" class="container pt-5" data-v-271253ee="">
@@ -276,12 +288,18 @@
               </form>
             </div>
             <div class="col-md-7 mb-4 mb-md-0">
-              <p class="fw-bold">Anim pariatur cliche reprehenderit?</p>
-              <p class="text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt autem numquam dolore molestias aperiam culpa alias veritatis architecto eos, molestiae vitae ex eligendi libero eveniet dolorem, doloremque rem aliquid perferendis.</p>
-              <p class="fw-bold">Non cupidatat skateboard dolor brunch?</p>
-              <p class="text-muted mb-5">Distinctio corporis, iure facere ducimus quos consectetur ipsa ut magnam autem doloremque ex! Id, sequi. Voluptatum magnam sed fugit iusto minus et suscipit? Minima sunt at nulla tenetur, numquam unde quod modi magnam ab deserunt ipsam sint aliquid dolores libero repellendus cupiditate mollitia quidem dolorem odit</p>
-              <p class="fw-bold">Praesentium voluptatibus temporibus consequatur non aspernatur?</p>
-              <p class="text-muted mb-5">Minima sunt at nulla tenetur, numquam unde quod modi magnam ab deserunt ipsam sint aliquid dolores libero repellendus cupiditate mollitia quidem dolorem.</p>
+              <p class="fw-bold">How long will the job take?</p>
+              <p class="text-muted mb-5">
+                Every job has different time lengths and hard to say right off the bat without seeing your project for ourselves. Typically, we include our projected time length in a quote, but we work hard to get it done in a timely manner without sacrificing quality of work.
+              </p>
+              <p class="fw-bold">Will there be hidden charges?</p>
+              <p class="text-muted mb-5">
+                What we charge is usually quoted upfront and that's what you will see for the work to be done. We will work with you on financing options, so that the project can get done and paying for it will be easier on you.
+              </p>
+              <p class="fw-bold">How far do you travel for projects?</p>
+              <p class="text-muted mb-5">
+                At the moment we are currently in Arizona, Nevada, California and Hawaii. But, for traveling expenses and the cost that we quote you, we could travel to your location.
+              </p>
             </div>
           </div>
           </section>
