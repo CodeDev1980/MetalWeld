@@ -1,5 +1,5 @@
 .home-banner {
-    background: url('/img/home-banner.png')
+    background: url('/img/badge-banner.png')
     no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,6 +8,19 @@
     padding-top: 7px;
     padding-bottom: 7px;
     width: 300px;
+}
+
+.badge-text {
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    right: 45%;
+    width: 130px;
+    font-size: 26px;
+}
+
+.badge-text > p {
+    position: inherit;
 }
 
 .gold-text {
@@ -29,7 +42,11 @@
     width: 100%;
 }
 
-#break {
+#break1 {
+    display: none;
+}
+
+#break2 {
     display: none;
 }
 
@@ -74,7 +91,10 @@
         width: 100%;
         text-wrap: normal;
     }
-    #break {
+    #break1 {
+        display: block;
+    }
+    #break2 {
         display: block;
     }
 }
