@@ -1,14 +1,14 @@
 {
-  "name": "rhino-construction",
+  "name": "metal-weld-specialties",
   "version": "1.0.0",
-  "description": "\"Rhino Construction Company for your Metal Fabrication needs\"",
+  "description": "\"Metal-Weld Specialties is a Company for your Metal Fabrication needs\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeDev1980/Rhino-Contstruciton.git"
+    "url": "https://metal-weld.netlify.app/"
   },
   "keywords": [
     "\"Metal",
