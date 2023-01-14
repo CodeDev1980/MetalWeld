@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/header') -%>
+
+<body>
+<!-- Start your project here-->
+
+<div id="preview" class="preview">
+    <div style="display: none;"></div>
+    <div>
+        <div data-draggable="true" style="position: relative;">
+            <!----><!---->
+            <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+                <section class="" style="padding-bottom: 1px;">
+                    <%- include('partials/navBar') -%>
+            </section>
+            </section>
+            <!---->
+        </div>
+
+        <div class="container my-5 py-5" itemid="contact us">
+            <h1 class="display-3 fw-bold text-center mb-3" itemref="contact page">Contact Us</h1>
+
+            <div class="row">
+                <div class="col-md-8 p-2">
+                    <form name="contactPage" action="thankYou.ejs" method="POST" data-netlify="true">
+                        <!-- Name input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" required id="form4Example1" name="name" class="form-control" />
+                            <label class="form-label" for="form4Example1">Name</label>
+                        </div>
+
+                        <!-- Name input -->
+                        <div class="form-outline mb-4">
+                            <label for="state">Call Back Time</label>
+                            <input type="datetime-local" value="" required id="state" name="callBackTime" class="form-control" />
+                        </div>
+
+                        <!-- Name input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" required id="company" name="company" class="form-control" />
+                            <label class="form-label" for="company">Company</label>
+                        </div>
+
+                        <!-- Name input -->
+                        <div class="row mb-4 p-2">
+                            <div class="col-md-6 form-outline p-2">
+                                <input type="text" required id="phone" name="phone" class="form-control" />
+                                <label class="form-label" for="phone">Phone Number</label>
+                            </div>
+                            <div class="col-md-6 form-outline p-2">
+                                <input type="email" id="form4Example2" name="email" class="form-control" />
+                                <label class="form-label" for="form4Example2">Email address</label>
+                            </div>
+                        </div>
+
+                        <!-- Message input -->
+                        <div class="form-outline mb-4">
+                            <textarea class="form-control" required placeholder="Please include the state you are in and a brief summary of work you want done, thank you." name="message" id="form4Example3" rows="4"></textarea>
+                            <label class="form-label" for="form4Example3">Message</label>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h3>Structural Steel Fabrication <br> & Erection Specialties </h3>
+                    <p>
+                        8137 North 83rd Ave <br>
+                        Peoria, Arizona 85345
+                    </p>
+                    <p>
+                        Office: 623-979-1117 <br>
+                        Fax: 623-979-9722
+                    </p>
+                    <img src="/img/contactPage.png"
+                         class="img-fluid rounded-3 shadow-2-strong"
+                         alt="corporate office">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End your project here-->
+<!-- Footer -->
+<%- include('partials/footer') -%>
+<!-- Footer -->
+<%- include('partials/scipts') -%>
+</body>
+
+</html>
