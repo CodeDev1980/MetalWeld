@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/header') -%>
+
+<body>
+<!-- Start your project here-->
+
+<div id="preview" class="preview">
+    <div style="display: none;"></div>
+    <div>
+        <div data-draggable="true" style="position: relative;">
+            <!----><!---->
+            <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+                <section class="" style="padding-bottom: 1px;">
+                    <%- include('partials/navBar') -%>
+            </section>
+            </section>
+            <!---->
+        </div>
+
+        <div class="container my-5 py-5" itemid="contact us">
+            <h1 class="display-4 fw-bold text-center mb-3" itemref="contact page">Metal-Weld Specialties Headlines</h1>
+
+            <% for(i=0; i < blogs.length; i++) { %>
+              <div class="row row-cols-lg-auto justify-content-center align-items-center text-center d-flex mx-auto py-2 me-1">
+                <div class="card p-2 m-3" style="max-width: 20rem;">
+                  <h3> <%= blogs[i].title %> <h3>
+                  <img src="<%= blogs[i].image %>" class="img-fluid" alt="img">
+                  <p> <%= blogs[i].body.substring(0, 110) %> . . . </p>
+                  <a class="btn btn-primary" href="<%= blogs[i]._I'd %>">Read post</a>
+                </div>
+              </div>
+            <% } %>
+
+        </div>
+    </div>
+</div>
+
+<!-- End your project here-->
+<!-- Footer -->
+<%- include('partials/footer') -%>
+<!-- Footer -->
+<%- include('partials/scipts') -%>
+</body>
+
+</html>
