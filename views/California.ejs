@@ -1,0 +1,116 @@
+
+CodeDev1980
+/
+MetalWeld
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+MetalWeld/views/about.ejs
+
+Stephen A Brooks update
+ 0 contributors
+97 lines (85 sloc)  4.62 KB
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/header') -%>
+
+<body>
+<!-- Start your project here-->
+
+<div id="preview" class="preview">
+    <div style="display: none;"></div>
+    <div>
+        <div data-draggable="true" style="position: relative;">
+            <!----><!---->
+            <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+                <section class="" style="padding-bottom: 1px;">
+                    <%- include('partials/navBar') -%>
+            </section>
+            </section>
+            <!---->
+        </div>
+
+        <div class="container my-3 py-5">
+            <h1 class="display-3 fw-bold text-center mb-3" itemid="about us">About Us</h1>
+
+            <div class="row">
+                <div class="col-md-6 p-2" itemprop="company details">
+                    <p class="lead" itemref="our story">
+                        Metal-Weld Specialties, Inc. <br>
+                        has been servicing the structural steel industry for over 45 years. We maintain an exceptional team of experienced and dedicated employees. Metal-Weld is an AISC certified fabricator and also is an ISO 9001 certified company. In addition, we are an approved fabricator for the City of Phoenix, City of Los Angeles, and Clark County, Nevada. Our headquarters and fabrication plant are located in Peoria, Arizona allowing us to service our customers in Arizona, Nevada, California, and Hawaii.
+                    </p>
+                    <a href="contact.ejs" class="btn m-2 btn-primary rounded">Reach Out To Us</a>
+                    <!-- Button trigger modal -->
+
+                </div>
+                <div class="col-md-6 p-2 text-center">
+                    <img src="./img/about-image.png" class="img-fluid rounded-3 shadow-2-strong"
+                         style="width: 100%;"
+                         alt="corporate office">
+                </div>
+                <div class="col-md-12 mt-5" itemprop="company standing">
+                    <p class="lead">
+                        Metal-Weld performs most of its fieldwork with our sister company MW Erectors, Inc. We specialize in large steel structures; however, we are more than experienced in all facets of the structural steel industry.
+                        Metal-Weld is here to meet and exceed your structural steel fabrication and erection needs. We can fabricate up to 500 tons of steel per week in our plant and have the capability of running in excess of 3,300 man-hours per week. Here is a partial list of our equipment that will help meet your needs:
+                    </p>
+                    <div class="card p-3 m-3 text-black-50" itemref="company licenses">
+                        <div class="row">
+                            <div class="col-md-4 p-2">
+                                <ul>
+                                    <li>
+                                        Horizontal Hem Saw w/ W44 capacity
+                                    </li>
+                                    <li>
+                                        CNC Franklin Structural Fabricator
+                                    </li>
+                                    <li>
+                                        CNC Ficep Drill line w/ W44 capacity
+                                    </li>
+                                    <li>
+                                        CNC Amtek Coping Machine
+                                    </li>
+                                    <li>
+                                        Cambro cambering machine w/ W44x490 capacity
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8 p-2">
+                                <h3>Certifications & Licenses</h3>
+                                <img src="./img/certimage1.png" class="img-fluid" alt="certs">
+                                <p>
+                                    <strong>Metal-Weld Specialties, Inc.</strong> <br>
+                                    <strong>Union Affiliation</strong>
+
+                                    Arizona Ironworkers Local #75,
+                                    Hawaii Ironworkers Local #625,
+                                    Nevada Ironworkers Local #433,
+                                    California Ironworkers Local #433
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- End your project here-->
+<!-- Footer -->
+<%- include('partials/footer') -%>
+<!-- Footer -->
+<%- include('partials/scripts') -%>
+</body>
+
+</html>
